@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*
+ *main = entry point
+ * return 0 = succes*/
 
 int main(void)
 {
