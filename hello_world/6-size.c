@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -8,10 +7,11 @@
  */
 int main(void)
 {
-	int n;
+	printf("Size of a char: %lu byte(s)\n", sizeof(char));
+	printf("Size of an int: %lu byte(s)\n", sizeof(int));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %lu byte(s)\n", sizeof(float));
 
-	n = rand();
-	printf("Last digit of %d is %d and is %s\n", n, n % 10,
-	       (n % 10 == 0) ? "0" : ((n % 10 > 5) ? "greater than 5" : "less than 6 and not 0"));
 	return (0);
 }
