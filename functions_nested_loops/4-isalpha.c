@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_isalpha - Verifie si le caractere est une lettre
+ *_isalpha - Verifie si le caractere est une lettre (maj ou min)
  *@c: le caractere a verif (code ASCII)
  *return: 1 si c'est une lettre, 0 sinon
  */
