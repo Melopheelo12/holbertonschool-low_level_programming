@@ -1,5 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 
+/**
+ * print_times_table - prints the n times table
+ * @n: number defining the size of the table
+ */
 void print_times_table(int n)
 {
     int i, j, res;
@@ -12,12 +16,34 @@ void print_times_table(int n)
         for (j = 0; j <= n; j++)
         {
             res = i * j;
+
             if (j == 0)
-                printf("%d", res);
+                _putchar(res + '0');
             else
-                printf(", %3d", res);
+            {
+                _putchar(',');
+                _putchar(' ');
+                if (res < 10)
+                {
+                    _putchar(' ');
+                    _putchar(' ');
+                    _putchar(res + '0');
+                }
+                else if (res < 100)
+                {
+                    _putchar(' ');
+                    _putchar((res / 10) + '0');
+                    _putchar((res % 10) + '0');
+                }
+                else
+                {
+                    _putchar((res / 100) + '0');
+                    _putchar(((res / 10) % 10) + '0');
+                    _putchar((res % 10) + '0');
+                }
+            }
         }
-        printf("\n");
+        _putchar('\n');
     }
 }
 
