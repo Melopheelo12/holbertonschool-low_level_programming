@@ -1,0 +1,27 @@
+[200~#include <stdio.h>
+
+/**
+ *  * main - affiche toutes les combinaisons possibles de deux chiffres différents
+ *   * Return: Always 0
+ *    */
+int main(void)
+{
+	    int i, j;
+
+	        for (i = 0; i < 10; i++)          // Boucle sur le premier chiffre (0 à 9)
+						  //     {
+						  //             for (j = i + 1; j < 10; j++)  // Boucle sur le deuxième chiffre (toujours supérieur à i)
+						  //                     {
+						  //                                 putchar(i + '0');         // Convertit i en caractère et l’affiche
+						  //                                             putchar(j + '0');         // Convertit j en caractère et l’affiche
+						  //
+						  //                                                         if (i != 8 || j != 9)     // Si ce n’est pas la dernière combinaison (89)
+						  //                                                                     {
+						  //                                                                                     putchar(',');          // Affiche une virgule
+						  //                                                                                                     putchar(' ');          // Puis un espace
+						  //                                                                                                                 }
+						  //                                                                                                                         }
+						  //                                                                                                                             }
+						  //                                                                                                                                 putchar('\n');                    // Retour à la ligne à la fin
+						  //                                                                                                                                     return (0);
+						  //                                                               }
