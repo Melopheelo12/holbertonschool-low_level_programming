@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_isdigit -Verif si c'est ub chiffre 
- *@c: le caractere a verif 
+ *_isdigit -Verif si c'est ub chiffre
+ *@c: le caractere a verif
  *Return: 1 si c'est un chiffre sinon 0
  */
 int _isdigit(int c)
