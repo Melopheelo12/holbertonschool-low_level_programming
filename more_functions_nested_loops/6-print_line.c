@@ -14,7 +14,7 @@ if (n <= 0)
 _putchar('\n');
 return;
 }
-for (z = 0; i < n; i++)
+for (z = 0; z < n; i++)
 _putchar('_');
 _putchar('\n');
 }
