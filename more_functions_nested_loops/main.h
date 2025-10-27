@@ -3,6 +3,6 @@
 
 int _isupper(int c);/** Verif si c'est une maj */
 int _isdigit(int c);
-
+int mul(int a, int b);
 
 #endif
