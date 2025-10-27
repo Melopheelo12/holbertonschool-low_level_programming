@@ -3,7 +3,7 @@
 /**
  *_isupper -Verif si c'est une maj
  *@c: va afficher des lettres en maj ou min
- *Return 1 si c'est une maj sinon 0
+ *Return: 1 si c'est une maj sinon 0
  */
 int _isupper(int c)
 {
