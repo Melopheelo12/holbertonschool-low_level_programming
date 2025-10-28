@@ -1,18 +1,23 @@
 #include "main.h"
 /**
- *print_rev -Affiche le sens inverse
+ *print_rev - ecrit l'inverse
  *
  *@s: le pointeur
  *
- *
  */
+
+
 void print_rev(char *s)
 {
 int len = 0;
-int z;
-for (; s[len] != '\0'; len++)
+int i;
+while (s[len] != '\0')
 {
-for (z = len - 1; z >= 0; z--)
-_putchar(s[z]);
-_putchar('\n');
+len++;
 }
+for (i = len - 1; i >= 0; i--)
+{
+_putchar(s[i]);
+}
+_putchar('\n');
+} 
