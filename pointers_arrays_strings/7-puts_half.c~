@@ -1,0 +1,23 @@
+#include "main.h"
+/**
+ *puts_half -Ecris la moitie du string
+ *
+ *@str: pointeur du string
+ *
+ *
+ */
+ Void puts_half(char *str)
+{
+int length = 0;
+int n;
+int i;
+for (i = 0; str[i] != '\0'; i++)
+length++;
+if (length % 2 == 0)
+n = length / 2;
+else
+n = (length - 1) / 2 + 1;
+for (i = n; i < length; i++)
+_putchar(str[i]);
+_putchar('\n');
+}
