@@ -13,6 +13,6 @@ int z;
 for (; s[len] != '\0'; len++)
 {
 for (z = len -1; z >= 0; z--)
-_putchar(s[i]);
+_putchar(s[z]);
 _putchar('\n');
 }
