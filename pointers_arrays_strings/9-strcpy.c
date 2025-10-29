@@ -4,7 +4,7 @@
  *@dest: destination du pointeur
  *@src: source du pointeur
  *
- *
+ *Return: un pointeur vers la chaine de destination
  */
 
 
