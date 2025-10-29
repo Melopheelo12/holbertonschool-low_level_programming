@@ -6,8 +6,6 @@
  *
  * Return: the integer value of the string, or 0 if no numbers found
  */
-#include <limits.h>
-
 int _atoi(char *s)
 {
 int i = 0;
