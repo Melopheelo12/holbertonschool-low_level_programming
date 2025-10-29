@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- *_atoi - copy the string pointed
- *
- *@s: le pointeur de la fonction
+ *_strcpy - copy the string pointed
+ *@dest: destination du pointeur
+ *@src: source du pointeur
  *
  *
  */
 
 
-char *_strcpy(char *dest, char *src)
+Char *_strcpy(char *dest, char *src)
 {
 int i = 0;
 
