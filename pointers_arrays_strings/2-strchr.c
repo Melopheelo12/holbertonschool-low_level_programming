@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 /**
  * _strchr - Recherche la première occurrence d’un caractère dans une chaîne
  * @s: pointeur vers la chaîne de caractères à parcourir
@@ -19,5 +18,5 @@ char *_strchr(char *s, char c)
 	if (*s == c)
 	return(s);
 
-	return (NULL);
+	return (0);
 }
