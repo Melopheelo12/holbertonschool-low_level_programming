@@ -1,9 +1,9 @@
 #include "main.h"
 /**
+*factorial - returns the factorial of a given number
+*@n: the number to compute the factorial of
 *
-*
-*
-*
+*Return: factorial of n, or -1 if n < 0 (error)
 *
 */
 int factorial(int n)
