@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
+*str_concat - concatenates two strings
 *
-*
-*
-*
-*
+*@s1: premier string
+*@s2: deuxieme string
+*Return : Nouvelle string
 */
 char *str_concat(char *s1, char *s2)
 {
@@ -19,9 +19,9 @@ char *str_concat(char *s1, char *s2)
 		s1 = "";
 	if (s2 == 0)
 		s2 = "";
-	for (;s1[len1] != '\0'; len1++)
+	for (; s1[len1] != '\0'; len1++)
 		;
-	for (;s2[len2] != '\0'; len2++)
+	for (; s2[len2] != '\0'; len2++)
 		;
 	nouv_str = malloc((len1 + len2 + 1) * sizeof(char));
 	if (nouv_str == NULL)
@@ -31,5 +31,5 @@ char *str_concat(char *s1, char *s2)
 	for (j = 0; j < len2; j++)
 		nouv_str[i + j] = s2[j];
 
-	return (nouv_str);			
+	return (nouv_str);
 }
