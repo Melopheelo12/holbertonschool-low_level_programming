@@ -5,7 +5,7 @@
 *
 *@s1: premier string
 *@s2: deuxieme string
-*Return : Nouvelle string
+*Return: Nouvelle string
 */
 char *str_concat(char *s1, char *s2)
 {
