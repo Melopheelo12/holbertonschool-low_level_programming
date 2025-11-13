@@ -6,7 +6,7 @@
 *@nmemb: nombre d'élément du tableau
 *@size: taille des élément du tableau
 *
-*Return: Pointeur vers la mémoire allouée initialisée à zéro, ou NULL en cas d’erreur
+*Return: Pointeur vers la mémoire allouée initialisée à zéro, ou NULL
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
