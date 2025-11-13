@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-*string_nconcat - Concatène deux chaînes de caractères
+*string_nconcat -Concatène deux chaînes de caractères
 *@s1: première chaîne
 *@s2: seconde chaîne
 *@n: nombre de caractères de s2 à ajouter à s1
-*Return:
+*Return:Un pointeur vers la nouvelle chaîne concaténée
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -17,10 +17,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 
-		for (len1 = 0; s1[len1] != '\0'; len1++)
-		;
-		for (len2 = 0; s2[len2] != '\0'; len2++)
-		;
+	for (len1 = 0; s1[len1] != '\0'; len1++)
+	;
+	for (len2 = 0; s2[len2] != '\0'; len2++)
+	;
 	if (n >= len2)
 	n = len2;
 
