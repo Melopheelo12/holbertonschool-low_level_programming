@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j, res;
+	int a, b, result;
 	int (*func)(int, int);
 
 	if (argc != 4)
@@ -27,17 +27,17 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	i = atoi(argv[1]);
-	j = atoi(argv[3]);
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
 
-	if ((*argv[2] == '/' || *argv[2] == '%') && j == 0)
+	if ((*argv[2] == '/' || *argv[2] == '%') && b == 0)
 	{
 		printf("Error\n");
 		exit(100);
 	}
 
-	res = func(i, j);
-	printf("%d\n", res);
+	result = func(i, j);
+	printf("%d\n", result);
 
 	return (0);
 }
