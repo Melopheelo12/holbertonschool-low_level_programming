@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 
-	result = func(i, j);
+	result = func(a, b);
 	printf("%d\n", result);
 
 	return (0);
