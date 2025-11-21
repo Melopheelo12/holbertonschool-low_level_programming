@@ -7,7 +7,7 @@
 *
 *Return: rien
 *@f: pointeur vers une fonction qui prend un char* et ne retourne rien
- *
+*
 */
 void print_name(char *name, void (*f)(char *))
 {
