@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include "lists.h"
 
+
+/**
+ * print_list - affiche tous les éléments d'une liste list_t
+ * @h: pointeur constant vers le premier nœud (tête) de la liste
+ *
+ * Return: le nombre total de nœuds de la liste
+ */
 size_t print_list(const list_t *h)
 {
 size_t count = 0;
@@ -16,5 +23,5 @@ h = h->next;
 count++;
 }
 
-return count;
+return (count);
 }
