@@ -22,12 +22,12 @@ int create_file(const char *filename, char *text_content)
 
     if (text_content != NULL)
     {
-        /* Compute the length of the text content */
+
         while (text_content[len] != '\0')
             len++;
     }
 
-    /* Open file: create if it doesn't exist, truncate if it does, write only */
+
     fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
     if (fd == -1)
         return -1;
